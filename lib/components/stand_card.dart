@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:ukk_kantin_epan/pages/student/detail_kantin_page.dart';
 
 class StandCard extends StatefulWidget {
   final String name;
@@ -47,7 +48,7 @@ class _StandCardState extends State<StandCard> {
                   children: [
                     Text(
                       widget.name,
-                      style: GoogleFonts.poppins(
+                      style: GoogleFonts.nunitoSans(
                         fontSize: MediaQuery.of(context).size.width * 0.035,
                         fontWeight: FontWeight.w600,
                         color: Colors.black,
@@ -63,7 +64,14 @@ class _StandCardState extends State<StandCard> {
                 ),
                 SizedBox(height: 35),
                 GestureDetector(
-                  onTap: () async {},
+                  onTap: () async {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => DetailKantinPage(),
+                      ),
+                    );
+                  },
                   child: Container(
                     height: MediaQuery.of(context).size.width * 0.12,
                     width: MediaQuery.of(context).size.width * 0.45,
@@ -74,7 +82,7 @@ class _StandCardState extends State<StandCard> {
                     child: Center(
                       child: Text(
                         "Lihat menu",
-                        style: GoogleFonts.poppins(
+                        style: GoogleFonts.nunitoSans(
                           fontSize: MediaQuery.of(context).size.width * 0.04,
                           fontWeight: FontWeight.w600,
                           color: Colors.white,

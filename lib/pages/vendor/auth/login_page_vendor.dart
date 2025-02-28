@@ -26,7 +26,7 @@ class _LoginPageVendorState extends State<LoginPageVendor> {
             children: [
               Text(
                 "Login",
-                style: GoogleFonts.poppins(
+                style: GoogleFonts.nunitoSans(
                   fontSize: MediaQuery.of(context).size.width * 0.09,
                   fontWeight: FontWeight.w600,
                   color: Colors.black,
@@ -35,7 +35,7 @@ class _LoginPageVendorState extends State<LoginPageVendor> {
               SizedBox(height: MediaQuery.of(context).size.width * 0.3),
               Text(
                 "Email",
-                style: GoogleFonts.poppins(
+                style: GoogleFonts.nunitoSans(
                   fontSize: MediaQuery.of(context).size.width * 0.035,
                   fontWeight: FontWeight.w500,
                   color: Colors.black,
@@ -44,7 +44,6 @@ class _LoginPageVendorState extends State<LoginPageVendor> {
               const SizedBox(height: 5),
               Container(
                 child: TextField(
-                  
                   decoration: InputDecoration(
                     enabledBorder: OutlineInputBorder(
                       borderSide: BorderSide(
@@ -57,7 +56,7 @@ class _LoginPageVendorState extends State<LoginPageVendor> {
                       borderRadius: BorderRadius.circular(16),
                     ),
                     hintText: "Masukan Email Anda",
-                    hintStyle: GoogleFonts.poppins(
+                    hintStyle: GoogleFonts.nunitoSans(
                       fontSize: MediaQuery.of(context).size.width * 0.03,
                       fontWeight: FontWeight.w400,
                       color: Color.fromRGBO(154, 154, 154, 1),
@@ -70,7 +69,7 @@ class _LoginPageVendorState extends State<LoginPageVendor> {
               const SizedBox(height: 15),
               Text(
                 "Password",
-                style: GoogleFonts.poppins(
+                style: GoogleFonts.nunitoSans(
                   fontSize: MediaQuery.of(context).size.width * 0.035,
                   fontWeight: FontWeight.w500,
                   color: Colors.black,
@@ -79,7 +78,6 @@ class _LoginPageVendorState extends State<LoginPageVendor> {
               const SizedBox(height: 5),
               Container(
                 child: TextField(
-                  
                   obscureText: true,
                   decoration: InputDecoration(
                     enabledBorder: OutlineInputBorder(
@@ -93,7 +91,7 @@ class _LoginPageVendorState extends State<LoginPageVendor> {
                       borderRadius: BorderRadius.circular(16),
                     ),
                     hintText: "Password",
-                    hintStyle: GoogleFonts.poppins(
+                    hintStyle: GoogleFonts.nunitoSans(
                       fontSize: MediaQuery.of(context).size.width * 0.03,
                       fontWeight: FontWeight.w400,
                       color: Color.fromRGBO(154, 154, 154, 1),
@@ -113,7 +111,7 @@ class _LoginPageVendorState extends State<LoginPageVendor> {
                 children: [
                   Text(
                     "Not member?",
-                    style: GoogleFonts.poppins(
+                    style: GoogleFonts.nunitoSans(
                         fontWeight: FontWeight.w400,
                         fontSize: MediaQuery.of(context).size.width * 0.03),
                   ),
@@ -148,7 +146,7 @@ class _LoginPageVendorState extends State<LoginPageVendor> {
                   child: Center(
                     child: Text(
                       "Login",
-                      style: GoogleFonts.poppins(
+                      style: GoogleFonts.nunitoSans(
                         fontSize: MediaQuery.of(context).size.width * 0.04,
                         fontWeight: FontWeight.w600,
                         color: Colors.white,

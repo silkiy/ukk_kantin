@@ -37,7 +37,7 @@ class _WelcomePage1State extends State<WelcomePage1> {
               children: [
                 Text(
                   "Banyak menu",
-                  style: GoogleFonts.poppins(
+                  style: GoogleFonts.nunitoSans(
                     fontSize: MediaQuery.of(context).size.width * 0.07,
                     fontWeight: FontWeight.w600,
                     color: Color.fromRGBO(112, 92, 233, 1),
@@ -46,7 +46,7 @@ class _WelcomePage1State extends State<WelcomePage1> {
                 const SizedBox(height: 5),
                 Text(
                   "pilihan",
-                  style: GoogleFonts.poppins(
+                  style: GoogleFonts.nunitoSans(
                     fontSize: MediaQuery.of(context).size.width * 0.07,
                     fontWeight: FontWeight.w600,
                     color: Color.fromRGBO(112, 92, 233, 1),
@@ -84,7 +84,7 @@ class _WelcomePage1State extends State<WelcomePage1> {
                 child: Center(
                   child: Text(
                     "SELANJUTNYA",
-                    style: GoogleFonts.poppins(
+                    style: GoogleFonts.nunitoSans(
                       fontSize: MediaQuery.of(context).size.width * 0.04,
                       fontWeight: FontWeight.w600,
                       color: Colors.white,

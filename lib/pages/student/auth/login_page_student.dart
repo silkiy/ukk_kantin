@@ -27,7 +27,7 @@ class _LoginPageStudentState extends State<LoginPageStudent> {
             children: [
               Text(
                 "Login",
-                style: GoogleFonts.poppins(
+                style: GoogleFonts.nunitoSans(
                   fontSize: MediaQuery.of(context).size.width * 0.09,
                   fontWeight: FontWeight.w600,
                   color: Colors.black,
@@ -36,7 +36,7 @@ class _LoginPageStudentState extends State<LoginPageStudent> {
               SizedBox(height: MediaQuery.of(context).size.width * 0.3),
               Text(
                 "Email",
-                style: GoogleFonts.poppins(
+                style: GoogleFonts.nunitoSans(
                   fontSize: MediaQuery.of(context).size.width * 0.035,
                   fontWeight: FontWeight.w500,
                   color: Colors.black,
@@ -57,7 +57,7 @@ class _LoginPageStudentState extends State<LoginPageStudent> {
                       borderRadius: BorderRadius.circular(16),
                     ),
                     hintText: "Masukan Email Anda",
-                    hintStyle: GoogleFonts.poppins(
+                    hintStyle: GoogleFonts.nunitoSans(
                       fontSize: MediaQuery.of(context).size.width * 0.03,
                       fontWeight: FontWeight.w400,
                       color: Color.fromRGBO(154, 154, 154, 1),
@@ -70,7 +70,7 @@ class _LoginPageStudentState extends State<LoginPageStudent> {
               const SizedBox(height: 15),
               Text(
                 "Password",
-                style: GoogleFonts.poppins(
+                style: GoogleFonts.nunitoSans(
                   fontSize: MediaQuery.of(context).size.width * 0.035,
                   fontWeight: FontWeight.w500,
                   color: Colors.black,
@@ -92,7 +92,7 @@ class _LoginPageStudentState extends State<LoginPageStudent> {
                       borderRadius: BorderRadius.circular(16),
                     ),
                     hintText: "Password",
-                    hintStyle: GoogleFonts.poppins(
+                    hintStyle: GoogleFonts.nunitoSans(
                       fontSize: MediaQuery.of(context).size.width * 0.03,
                       fontWeight: FontWeight.w400,
                       color: Color.fromRGBO(154, 154, 154, 1),
@@ -112,7 +112,7 @@ class _LoginPageStudentState extends State<LoginPageStudent> {
                 children: [
                   Text(
                     "Not member?",
-                    style: GoogleFonts.poppins(
+                    style: GoogleFonts.nunitoSans(
                         fontWeight: FontWeight.w400,
                         fontSize: MediaQuery.of(context).size.width * 0.03),
                   ),
@@ -154,7 +154,7 @@ class _LoginPageStudentState extends State<LoginPageStudent> {
                   child: Center(
                     child: Text(
                       "Login",
-                      style: GoogleFonts.poppins(
+                      style: GoogleFonts.nunitoSans(
                         fontSize: MediaQuery.of(context).size.width * 0.04,
                         fontWeight: FontWeight.w600,
                         color: Colors.white,

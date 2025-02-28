@@ -37,7 +37,7 @@ class _WelcomePage3State extends State<WelcomePage3> {
               children: [
                 Text(
                   "Siap untuk pesan",
-                  style: GoogleFonts.poppins(
+                  style: GoogleFonts.nunitoSans(
                     fontSize: MediaQuery.of(context).size.width * 0.07,
                     fontWeight: FontWeight.w600,
                     color: Color.fromRGBO(112, 92, 233, 1),
@@ -46,7 +46,7 @@ class _WelcomePage3State extends State<WelcomePage3> {
                 const SizedBox(height: 5),
                 Text(
                   "makanan?",
-                  style: GoogleFonts.poppins(
+                  style: GoogleFonts.nunitoSans(
                     fontSize: MediaQuery.of(context).size.width * 0.07,
                     fontWeight: FontWeight.w600,
                     color: Color.fromRGBO(112, 92, 233, 1),
@@ -84,7 +84,7 @@ class _WelcomePage3State extends State<WelcomePage3> {
                 child: Center(
                   child: Text(
                     "SELANJUTNYA",
-                    style: GoogleFonts.poppins(
+                    style: GoogleFonts.nunitoSans(
                       fontSize: MediaQuery.of(context).size.width * 0.04,
                       fontWeight: FontWeight.w600,
                       color: Colors.white,

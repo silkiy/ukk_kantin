@@ -29,7 +29,7 @@ class _MakeAChoiceState extends State<MakeAChoice> {
                 children: [
                   Text(
                     "Siapa kamu?",
-                    style: GoogleFonts.poppins(
+                    style: GoogleFonts.nunitoSans(
                       fontSize: MediaQuery.of(context).size.width * 0.07,
                       fontWeight: FontWeight.w600,
                       color: Colors.black,
@@ -63,7 +63,7 @@ class _MakeAChoiceState extends State<MakeAChoice> {
                         ),
                         Text(
                           "Student",
-                          style: GoogleFonts.poppins(
+                          style: GoogleFonts.nunitoSans(
                             fontSize: MediaQuery.of(context).size.width * 0.04,
                             fontWeight: FontWeight.w600,
                             color: Colors.white,
@@ -103,7 +103,7 @@ class _MakeAChoiceState extends State<MakeAChoice> {
                         ),
                         Text(
                           "Booth Owner",
-                          style: GoogleFonts.poppins(
+                          style: GoogleFonts.nunitoSans(
                             fontSize: MediaQuery.of(context).size.width * 0.04,
                             fontWeight: FontWeight.w600,
                             color: Color.fromRGBO(112, 92, 233, 1),
@@ -120,7 +120,7 @@ class _MakeAChoiceState extends State<MakeAChoice> {
                 children: [
                   Text(
                     "Student",
-                    style: GoogleFonts.poppins(
+                    style: GoogleFonts.nunitoSans(
                       fontSize: MediaQuery.of(context).size.width * 0.05,
                       fontWeight: FontWeight.w600,
                       color: Colors.black,
@@ -133,7 +133,7 @@ class _MakeAChoiceState extends State<MakeAChoice> {
                 children: [
                   Text(
                     "Sebagai siswa kamu harus mematuhi peraturan\nyang sudah ditetapkan oleh sekolah tentang\nperaturan yang ada di kantin. Melakukan\npembayaran dengan jujur dan juga menjaga\nkebersihan kantin.",
-                    style: GoogleFonts.poppins(
+                    style: GoogleFonts.nunitoSans(
                       fontSize: MediaQuery.of(context).size.width * 0.03,
                       fontWeight: FontWeight.w500,
                       color: Colors.black,
@@ -147,7 +147,7 @@ class _MakeAChoiceState extends State<MakeAChoice> {
                 children: [
                   Text(
                     "Booth Owner",
-                    style: GoogleFonts.poppins(
+                    style: GoogleFonts.nunitoSans(
                       fontSize: MediaQuery.of(context).size.width * 0.05,
                       fontWeight: FontWeight.w600,
                       color: Colors.black,
@@ -160,7 +160,7 @@ class _MakeAChoiceState extends State<MakeAChoice> {
                 children: [
                   Text(
                     "Sebagai pemilik stan kamu harus mematuhi\nperaturan yang sudah ditetapkan oleh sekolah\ntentang peraturan yang ada di kantin. Melakukan\npengecekan pengeluaran dengan tepat dan juga\nmenjaga kebersihan kantin.",
-                    style: GoogleFonts.poppins(
+                    style: GoogleFonts.nunitoSans(
                       fontSize: MediaQuery.of(context).size.width * 0.03,
                       fontWeight: FontWeight.w500,
                       color: Colors.black,

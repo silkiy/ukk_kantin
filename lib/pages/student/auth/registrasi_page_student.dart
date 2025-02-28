@@ -28,7 +28,7 @@ class _RegistrasiPageStudentState extends State<RegistrasiPageStudent> {
             children: [
               Text(
                 "Register",
-                style: GoogleFonts.poppins(
+                style: GoogleFonts.nunitoSans(
                   fontSize: MediaQuery.of(context).size.width * 0.09,
                   fontWeight: FontWeight.w600,
                   color: Colors.black,
@@ -37,7 +37,7 @@ class _RegistrasiPageStudentState extends State<RegistrasiPageStudent> {
               SizedBox(height: MediaQuery.of(context).size.width * 0.1),
               Text(
                 "Nama Lengkap",
-                style: GoogleFonts.poppins(
+                style: GoogleFonts.nunitoSans(
                   fontSize: MediaQuery.of(context).size.width * 0.035,
                   fontWeight: FontWeight.w500,
                   color: Colors.black,
@@ -58,7 +58,7 @@ class _RegistrasiPageStudentState extends State<RegistrasiPageStudent> {
                       borderRadius: BorderRadius.circular(16),
                     ),
                     hintText: "Masukan Nama Lengkap Anda",
-                    hintStyle: GoogleFonts.poppins(
+                    hintStyle: GoogleFonts.nunitoSans(
                       fontSize: MediaQuery.of(context).size.width * 0.03,
                       fontWeight: FontWeight.w400,
                       color: Color.fromRGBO(154, 154, 154, 1),
@@ -71,7 +71,7 @@ class _RegistrasiPageStudentState extends State<RegistrasiPageStudent> {
               const SizedBox(height: 15),
               Text(
                 "Email",
-                style: GoogleFonts.poppins(
+                style: GoogleFonts.nunitoSans(
                   fontSize: MediaQuery.of(context).size.width * 0.035,
                   fontWeight: FontWeight.w500,
                   color: Colors.black,
@@ -92,7 +92,7 @@ class _RegistrasiPageStudentState extends State<RegistrasiPageStudent> {
                       borderRadius: BorderRadius.circular(16),
                     ),
                     hintText: "Masukan Email Anda",
-                    hintStyle: GoogleFonts.poppins(
+                    hintStyle: GoogleFonts.nunitoSans(
                       fontSize: MediaQuery.of(context).size.width * 0.03,
                       fontWeight: FontWeight.w400,
                       color: Color.fromRGBO(154, 154, 154, 1),
@@ -105,7 +105,7 @@ class _RegistrasiPageStudentState extends State<RegistrasiPageStudent> {
               const SizedBox(height: 15),
               Text(
                 "Password",
-                style: GoogleFonts.poppins(
+                style: GoogleFonts.nunitoSans(
                   fontSize: MediaQuery.of(context).size.width * 0.035,
                   fontWeight: FontWeight.w500,
                   color: Colors.black,
@@ -127,7 +127,7 @@ class _RegistrasiPageStudentState extends State<RegistrasiPageStudent> {
                       borderRadius: BorderRadius.circular(16),
                     ),
                     hintText: "Password",
-                    hintStyle: GoogleFonts.poppins(
+                    hintStyle: GoogleFonts.nunitoSans(
                       fontSize: MediaQuery.of(context).size.width * 0.03,
                       fontWeight: FontWeight.w400,
                       color: Color.fromRGBO(154, 154, 154, 1),
@@ -144,7 +144,7 @@ class _RegistrasiPageStudentState extends State<RegistrasiPageStudent> {
               const SizedBox(height: 15),
               Text(
                 "Verifikasi Password",
-                style: GoogleFonts.poppins(
+                style: GoogleFonts.nunitoSans(
                   fontSize: MediaQuery.of(context).size.width * 0.035,
                   fontWeight: FontWeight.w500,
                   color: Colors.black,
@@ -166,7 +166,7 @@ class _RegistrasiPageStudentState extends State<RegistrasiPageStudent> {
                       borderRadius: BorderRadius.circular(16),
                     ),
                     hintText: "Verifikasi Password",
-                    hintStyle: GoogleFonts.poppins(
+                    hintStyle: GoogleFonts.nunitoSans(
                       fontSize: MediaQuery.of(context).size.width * 0.03,
                       fontWeight: FontWeight.w400,
                       color: Color.fromRGBO(154, 154, 154, 1),
@@ -186,7 +186,7 @@ class _RegistrasiPageStudentState extends State<RegistrasiPageStudent> {
                 children: [
                   Text(
                     "Already have an account?",
-                    style: GoogleFonts.poppins(
+                    style: GoogleFonts.nunitoSans(
                         fontWeight: FontWeight.w400,
                         fontSize: MediaQuery.of(context).size.width * 0.03),
                   ),
@@ -228,7 +228,7 @@ class _RegistrasiPageStudentState extends State<RegistrasiPageStudent> {
                   child: Center(
                     child: Text(
                       "Registrasi",
-                      style: GoogleFonts.poppins(
+                      style: GoogleFonts.nunitoSans(
                         fontSize: MediaQuery.of(context).size.width * 0.04,
                         fontWeight: FontWeight.w600,
                         color: Colors.white,
