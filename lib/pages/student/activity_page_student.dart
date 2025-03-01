@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:ukk_kantin_epan/components/card_activity.dart';
 
 import '../../components/bottom_nav_bar_student.dart';
-import '../../components/card_activity.dart';
 
 class ActivityPageStudent extends StatefulWidget {
   const ActivityPageStudent({super.key});
@@ -16,21 +15,6 @@ class _ActivityPageStudentState extends State<ActivityPageStudent> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color.fromRGBO(255, 255, 255, 1),
-      appBar: AppBar(
-        backgroundColor: Color.fromRGBO(255, 255, 255, 1),
-        elevation: 0,
-        centerTitle: true,
-        leading: null,
-        automaticallyImplyLeading: false,
-        title: Text(
-          "Checkout",
-          style: GoogleFonts.nunitoSans(
-            fontSize: MediaQuery.of(context).size.width * 0.055,
-            fontWeight: FontWeight.w800,
-            color: Colors.black,
-          ),
-        ),
-      ),
       body: SingleChildScrollView(
         padding: EdgeInsets.symmetric(
           vertical: MediaQuery.of(context).size.height * 0.05,
@@ -38,76 +22,93 @@ class _ActivityPageStudentState extends State<ActivityPageStudent> {
         ),
         child: Column(
           children: [
-            CardActivity(),
-            SizedBox(height: MediaQuery.of(context).size.height * 0.04),
-            GestureDetector(
-              onTap: () async {},
-              child: Container(
-                height: MediaQuery.of(context).size.width * 0.14,
-                decoration: BoxDecoration(
-                  color: const Color.fromRGBO(112, 92, 233, 1),
-                  borderRadius: BorderRadius.circular(12),
-                  boxShadow: [
-                    BoxShadow(
-                      color: const Color.fromRGBO(158, 158, 158, 1)
-                          .withValues(alpha: 0.5),
-                      spreadRadius: 3,
-                      blurRadius: 5,
-                      offset: Offset(0, 2),
+            Row(
+              children: [
+                Text(
+                  "Activity",
+                  style: TextStyle(
+                    fontSize: MediaQuery.of(context).size.width * 0.075,
+                    fontWeight: FontWeight.w800,
+                    color: Color(0xff705CE9),
+                  ),
+                ),
+              ],
+            ),
+            SizedBox(height: MediaQuery.of(context).size.height * 0.03),
+            Row(
+              children: [
+                Expanded(
+                  child: Container(
+                    decoration: BoxDecoration(
+                      color: Color.fromRGBO(112, 92, 233, 0.2),
+                      borderRadius: BorderRadius.circular(30),
+                      border: Border.all(
+                        color: Color(0xff758692),
+                        width: 1.5,
+                      ),
                     ),
-                  ],
-                ),
-                child: Center(
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Text(
-                        "Complete Order",
-                        style: GoogleFonts.nunitoSans(
-                          fontSize: MediaQuery.of(context).size.width * 0.04,
-                          fontWeight: FontWeight.w700,
-                          color: Colors.white,
+                    padding: EdgeInsets.symmetric(horizontal: 12),
+                    child: Row(
+                      children: [
+                        Icon(
+                          Icons.search,
+                          color: Color(0xff758692),
                         ),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-            ),
-            SizedBox(height: MediaQuery.of(context).size.height * 0.02),
-            GestureDetector(
-              onTap: () async {},
-              child: Container(
-                height: MediaQuery.of(context).size.width * 0.14,
-                decoration: BoxDecoration(
-                  color: Color.fromRGBO(112, 92, 233, 0.2),
-                  border: Border.all(
-                    width: 1.5,
-                    color: Color.fromRGBO(112, 92, 233, 1),
-                  ),
-                  borderRadius: BorderRadius.circular(12),
-                ),
-                child: Center(
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Text(
-                        "Print Order",
-                        style: GoogleFonts.nunitoSans(
-                          fontSize: MediaQuery.of(context).size.width * 0.04,
-                          fontWeight: FontWeight.w700,
-                          color: Color.fromRGBO(112, 92, 233, 1),
+                        SizedBox(width: 8),
+                        Expanded(
+                          child: TextField(
+                            decoration: InputDecoration(
+                              hintText: "Cari stan kamu disini",
+                              hintStyle: TextStyle(
+                                color: Color(0xff758692),
+                              ),
+                              border: InputBorder.none,
+                            ),
+                            style: TextStyle(
+                              color: Color(0xff758692),
+                            ),
+                          ),
                         ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
                 ),
-              ),
+                SizedBox(width: 12),
+                Container(
+                  decoration: BoxDecoration(
+                    color: Color(0xff705CE9),
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: IconButton(
+                    icon: Icon(
+                      Icons.filter_list,
+                      color: Colors.white,
+                    ),
+                    onPressed: () {},
+                  ),
+                ),
+                SizedBox(width: 8),
+                Container(
+                  decoration: BoxDecoration(
+                    color: Color(0xff705CE9),
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: IconButton(
+                    icon: Icon(
+                      Icons.timer,
+                      color: Colors.white,
+                    ),
+                    onPressed: () {},
+                  ),
+                )
+              ],
             ),
+            SizedBox(height: MediaQuery.of(context).size.height * 0.03),
+            CardActivity(),
           ],
         ),
       ),
-      bottomNavigationBar: BottomNavBarStudent(selectedItem: 1),
+      bottomNavigationBar: BottomNavBarStudent(selectedItem: 0),
     );
   }
 }
