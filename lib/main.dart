@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:ukk_kantin_epan/pages/student/auth/login_page_student.dart';
+
 import 'package:ukk_kantin_epan/pages/make_a_choice.dart';
 import 'package:ukk_kantin_epan/pages/splash_screen.dart';
+import 'package:ukk_kantin_epan/pages/student/auth/login_page_student.dart';
 import 'package:ukk_kantin_epan/pages/student/auth/registrasi_page_student.dart';
 import 'package:ukk_kantin_epan/pages/welcome_page_1.dart';
 import 'package:ukk_kantin_epan/pages/welcome_page_2.dart';
