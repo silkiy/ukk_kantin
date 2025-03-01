@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:ukk_kantin_epan/components/bottom_nav_bar_student.dart';
+import 'package:ukk_kantin_epan/pages/student/checkout_page_student.dart';
 
 import '../../components/menu_card.dart';
 
@@ -179,7 +180,14 @@ class _DetailKantinPageState extends State<DetailKantinPage> {
               ),
               SizedBox(height: MediaQuery.of(context).size.height * 0.02),
               GestureDetector(
-                onTap: () async {},
+                onTap: () async {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => CheckoutPageStudent(),
+                    ),
+                  );
+                },
                 child: Container(
                   height: MediaQuery.of(context).size.width * 0.1,
                   decoration: BoxDecoration(
