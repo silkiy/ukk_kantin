@@ -1,8 +1,8 @@
 // ignore_for_file: unused_field
 
 import 'package:flutter/material.dart';
+import 'package:ukk_kantin_epan/pages/student/activity_page_student.dart';
 
-import '../pages/student/activity_page_student.dart';
 import '../pages/student/home_page_student.dart';
 
 class BottomNavBarStudent extends StatefulWidget {
