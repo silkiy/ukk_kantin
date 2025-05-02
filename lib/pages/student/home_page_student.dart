@@ -51,7 +51,9 @@ class _HomePageStudentState extends State<HomePageStudent> {
                 ],
               ),
               SizedBox(height: MediaQuery.of(context).size.height * 0.03),
-              SearchBarComponents(),
+              SearchBarComponents(
+                hintText: "Cari stan kamu disini",
+              ),
               SizedBox(height: MediaQuery.of(context).size.height * 0.02),
               Row(
                 children: [

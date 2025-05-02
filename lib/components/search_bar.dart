@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
 
 class SearchBarComponents extends StatelessWidget {
+  final String? hintText;
+  final String? labelText;
   const SearchBarComponents({
     super.key,
+    this.hintText,
+    this.labelText,
   });
 
   @override
@@ -17,7 +21,7 @@ class SearchBarComponents extends StatelessWidget {
             ),
             borderRadius: BorderRadius.circular(24),
           ),
-          labelText: 'Cari stan kamu disini',
+          labelText: labelText,
           border: OutlineInputBorder(),
           prefixIcon: Icon(Icons.search),
         ),

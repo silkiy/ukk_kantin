@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:ukk_kantin_epan/pages/vendor/auth/registrasi_page_vendor.dart';
+import 'package:ukk_kantin_epan/pages/vendor/home_page_vendor.dart';
 
 class LoginPageVendor extends StatefulWidget {
   const LoginPageVendor({super.key});
@@ -136,7 +137,14 @@ class _LoginPageVendorState extends State<LoginPageVendor> {
               ),
               SizedBox(height: MediaQuery.of(context).size.width * 0.5),
               GestureDetector(
-                onTap: () async {},
+                onTap: () async {
+                  Navigator.pushReplacement(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => HomePageVendor(),
+                    ),
+                  );
+                },
                 child: Container(
                   height: MediaQuery.of(context).size.width * 0.14,
                   decoration: BoxDecoration(
